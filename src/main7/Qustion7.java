@@ -11,6 +11,6 @@ public class Qustion7 {
         for (int i = 0; i < c.length; i++) {
             sum = sum + (int) c[i];
         }
-
+        System.out.println(sum);
     }
 }
