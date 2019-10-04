@@ -7,6 +7,13 @@ public class Question8 {
         Scanner sc = new Scanner(System.in);
         String input = sc.nextLine();
         int uppersum = 0;
+        char c[] = input.toCharArray();
+        for (int i = 0; i < c.length; i++) {
+            if (Character.isUpperCase(c[i]))
+                uppersum += (int) c[i];
+
+        }
+
     }
 }
-}
+
