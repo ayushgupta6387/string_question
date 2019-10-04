@@ -12,12 +12,13 @@ public class Question9 {
         for (int i = 0; i < c.length; i++) {
             if (Character.isUpperCase(c[i]))
                 uppersum += (int) c[i];
-            else if (Character.isLowerCase())
+            else if (Character.isLowerCase(c[i]))
                 lowersum += (int) c[i];
 
         }
+        System.out.println("Absolute weight" + "=" + (uppersum - lowersum));
 
     }
 }
 
-}
+
