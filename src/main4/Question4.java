@@ -12,3 +12,14 @@ public class Question4 {
             input = input.replace(r, "*");
         }
         System.out.println(input);
+        char c[] = input.toCharArray();
+        int count = 0;
+        for (int i = 0; i < c.length; i++) {
+            if (c[i] == '*') {
+                count++;
+            }
+            if (c[i] == '*' && count % 3 == 2) {
+                c[i] = '^';
+            }
+
+        }
