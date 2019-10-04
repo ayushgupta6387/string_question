@@ -13,7 +13,7 @@ public class Question8 {
                 uppersum += (int) c[i];
 
         }
-
+        System.out.println(uppersum);
     }
 }
 
