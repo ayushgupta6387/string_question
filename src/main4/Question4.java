@@ -20,6 +20,11 @@ public class Question4 {
             }
             if (c[i] == '*' && count % 3 == 2) {
                 c[i] = '^';
+            } else if (c[i] == '*' && count % 3 == 0) {
+                c[i] = '!';
             }
 
+        }
+        System.out.println(c);
+    }
         }
