@@ -8,6 +8,8 @@ public class Question5 {
         String input = sc.nextLine();
         System.out.println("Enter substring you want to replace");
         String input1 = sc.nextLine();
+        System.out.println("from which string");
+        String input2 = sc.nextLine();
 
 
     }
