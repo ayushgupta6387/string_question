@@ -10,7 +10,8 @@ public class Question5 {
         String input1 = sc.nextLine();
         System.out.println("from which string");
         String input2 = sc.nextLine();
-
+        String new_string = input.replace(input1, input2);
+        System.out.println(new_string);
 
     }
 }
