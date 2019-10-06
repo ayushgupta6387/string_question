@@ -7,5 +7,12 @@ public class Question11 {
         Scanner cs = new Scanner(System.in);
         String input = cs.nextLine();
         char ch = cs.next().charAt(0);
+        char ar[] = input.toCharArray();
+        for (int i = 0; i < ar.length; i++) {
+            if (ar[i] == ch) {
+                System.out.println(i);
+
+            }
+        }
     }
 }
